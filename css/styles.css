@@ -1,6 +1,4 @@
-img { 
-	max-width: 100%;
-}
+/* FONT */
 
 body {
 	font-size: 16px;
@@ -30,6 +28,10 @@ h2, h3 {
 	font-size: 1.5em;
 }
 
+
+
+/* HEADER */
+
 header {
 	background: red;
 	color: #fff;
@@ -39,6 +41,10 @@ header h1, header h2 {
 	margin: 0 0 0 10px;
 	text-align: left;
 }
+
+
+
+/* NAVIGATION BAR */
 
 nav {
 	background: white;
@@ -75,10 +81,18 @@ nav a:hover, nav a.selected {
 	border-radius: 5%;
 }
 
+
+
+/* MAIN SECTION */
+
 main {
 	color: #484444;
 	margin: 0 15px;
 }
+
+
+
+/* FOOTER */
 
 footer {
 	background: #fff;
@@ -92,11 +106,23 @@ footer p {
 	margin-top: 40px;
 }
 
+
+
+/* IMAGES */
+
+img { 
+	max-width: 100%;
+}
+
 #about-me img {
 	display: block;
 	border-radius: 20%;
 	margin: auto;
 }
+
+
+
+/* CONTACT SECTION */
 
 #contact-list ul {
 	list-style: none;
@@ -129,6 +155,10 @@ footer p {
 	color: red;
 }
 
+
+
+/* SOCIAL ICON SECTION */
+
 .social-icon-list {
 	list-style: none;
 	display: block;
@@ -147,4 +177,31 @@ li.social-icon a {
 	padding: 10px;
 	background: red;
 	border-radius: 25%;
-} 
+}
+
+
+
+/* PORTFOLIO */
+
+#portfolio ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#portfolio li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background: #484444;
+}
+
+#portfolio p {
+	color: #fff;
+	padding: 5% 0 10% 0;
+}
+
+#portfolio li:nth-child(odd) {
+	clear: left;
+}
