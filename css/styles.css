@@ -85,6 +85,7 @@ footer {
 	color: #484444;
 	padding: 5% 0 0 0;
 	text-align: center;
+	clear: both;
 }
 
 footer p {
@@ -122,8 +123,28 @@ footer p {
 	font-size: 0.75em;
 }
 
-#contact-list a:hover i.contact-icon {
+#contact-list a:hover i.contact-icon, li.social-icon a:hover {
 	transition-duration: 500ms;
 	background: white;
 	color: red;
 }
+
+.social-icon-list {
+	list-style: none;
+	display: block;
+	margin: 20px 0;
+	padding: 0;
+}
+
+li.social-icon {
+	display: inline-block;
+	margin: 0 6px;
+}
+
+li.social-icon a {
+	transition-duration: 500ms;
+	color: #fff;
+	padding: 10px;
+	background: red;
+	border-radius: 25%;
+} 
