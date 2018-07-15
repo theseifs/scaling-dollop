@@ -1,0 +1,55 @@
+@media screen and (min-width: 480px) {
+	#about-me img {
+		float: right;
+		width: 45%;
+		max-width: 400px;
+		margin: 0 5%;
+	}
+
+	nav ul {
+		margin: 10px;
+	}
+
+	nav {
+		padding: 0;
+	}
+
+	nav li {
+		width: 22%;
+		margin: 2.5% 5%;
+	}
+
+	nav a {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (min-width: 660px) {
+	body {
+		font-size: 18px;
+	}
+
+	#contact-list {
+		display: inline-block;
+		width: 40%;
+		margin: 5% 3% 0 3%;
+	}
+
+	#contact-info {
+		display: inline-block;
+		width: 50%;
+		float: left;
+	}
+
+	#portfolio li {
+		width: 28%;
+	}
+
+	#portfolio li:nth-child(odd) {
+		clear: none;
+	}
+
+	#portfolio li:nth-child(4n) {
+		clear: left;
+	}
+}
